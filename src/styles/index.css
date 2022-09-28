@@ -1,12 +1,40 @@
 
-/* 
+.circulo {
+    margin-top: 1px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    background: red;
+   
+    
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.rojo{
+    background: red;
+}
+.amarillo{
+    background: yellow;
+}
+.verde{
+    background: green;
+}
 
-*/
+.recta{
+    width: 130px;
+    height: 320px;
+    background: #000000;
+    padding: 10px;
+    -webkit-border-radius: 10px;
+}
+.sontenedor{
+    width: 10px;
+    height: 110px;
+    background: #000000;
+}
+.luz{
+    box-shadow: 2px 0px 0px 3px rgb(206, 228, 11);
+}
